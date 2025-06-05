@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./resources/**/*.blade.php",
-    "./resources/**/*.js",
-    "./resources/**/*.vue", // Caso use Vue no futuro
+    "./resources/views/*.blade.php",
+    "./resources/views/*.js",
+    "./resources/views/*.vue", // Caso use Vue no futuro
   ],
   // A estratégia darkMode precisa corresponder à forma como seu JS aplica o tema.
   // Seu JS original adicionava 'theme-dark' ao body.
