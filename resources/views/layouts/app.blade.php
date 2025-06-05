@@ -7,7 +7,7 @@
     <title>Contato | {{ config('app.name', 'Laravel') }}</title>
 
     {{-- Carrega os assets (CSS e JS) processados pelo Vite --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(  ['resources/css/app.css', 'resources/js/app.js'])
 
     {{-- Carrega a fonte Inter do Google Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
